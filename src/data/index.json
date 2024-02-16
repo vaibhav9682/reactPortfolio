@@ -1,0 +1,94 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/product-chain-1.png",
+      "title": "Front-End",
+      "description": "Crafting visually captivating web experiences through HTML, CSS, and React, I specialize in building responsive user interfaces that seamlessly blend form with function."
+    },
+    {
+      "id": "2",
+      "src": "./img/tag-1.png",
+      "title": "Back-End",
+      "description": "Powering applications with Node.js and Express, I architect scalable backend solutions, integrating RESTful APIs and databases to deliver robust and efficient server-side functionality."
+    },
+
+    {
+      "id": "4",
+      "src": "./img/feather-pen-1.png",
+      "title": "Data Structure & Algo",
+      "description": "Applying strong algorithmic skills, I optimize application performance by designing scalable solutions that leverage effective data structures to tackle complex challenges."
+    },
+    {
+      "id": "3",
+      "src": "./img/feather-pen-2.png",
+      "title": "Database Management",
+      "description": "Expert in SQL and NoSQL databases, I design and manage data structures, optimizing storage and retrieval for seamless organization and manipulation of information in web applications."
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src1": "./img/habit1.png",
+      "src2": "./img/habit2.png",
+      "title": "Habitsy",
+      "description": "Habitsy: An innovative habit-tracking app to boost productivity. Easily monitor habits with Done, Not Done and None states. Flexible and user-friendly, it adapts to life's unpredictability. Developed with JavaScript, CSS, HTML (client) and Node, Express, MongoDB, Passport.js (server). Achieve your goals effortlessly!",
+      "link": "https://github.com/vaibhav9682/Habitsy",
+      "host": "https://habitsy.onrender.com"
+    },
+    {
+      "id": "2",
+      "src1": "./img/diner1.png",
+      "src2": "./img/diner2.png",
+      "title": "Diners",
+      "description": "Diners: A React.js food order app, powered by Firebase and a Restful API for seamless data management. Explore a diverse menu, add items to your cart, and experience a swift checkout. From fresh dishes to a user-friendly interface, Diners is your go-to for a delightful and efficient online food ordering experience.",
+      "link": "https://github.com/vaibhav9682/Diners",
+      "host": "https://dinersyou.netlify.app/"
+    },
+    {
+      "id": "3",
+      "src1": "./img/marvel1.png",
+      "src2": "./img/marvel2.png",
+      "title": "Super Hero Hunter",
+      "description": "The Super Hero Hunter project is a user-friendly web application that utilizes the Marvel API to provide detailed information about Marvel super heroes, including names, images, biographies, events, and series. It allows users to explore and learn more about their favorite Marvel characters, enhancing their knowledge and keeping track of beloved heroes.",
+      "link": "https://github.com/vaibhav9682/super-hero-hunter",
+      "host": "https://marvel-api-web.netlify.app/"
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": 1,
+      "tech": ["./img/react-js-icon.svg"],
+      "src": "./img/reactjscertificate.svg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Dianne Russel",
+      "author_designation": "Starbucks",
+      "Link": "https://certificate.codingninjas.com/verify/23c85ba6cb340a8c"
+    },
+    {
+      "id": "2",
+      "count": 3,
+      "tech": [
+        "./img/node-js-icon.svg",
+        "./img/express-js-icon.svg",
+        "./img/mongodb-icon.svg"
+      ],
+      "src": "./img/nodeJsCertificate.svg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kristin Watson",
+      "author_designation": "Louis Vuitton",
+      "Link": "https://certificate.codingninjas.com/verify/c08036b231df221e"
+    },
+    {
+      "id": "3",
+      "count": 1,
+      "tech": ["./img/java-icon.svg"],
+      "src": "./img/JAVAcertificate.svg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kathryn Murphy",
+      "author_designation": "McDonald's",
+      "Link": "https://certificate.codingninjas.com/verify/a4a1028761fdca74"
+    }
+  ]
+}
