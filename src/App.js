@@ -3,6 +3,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./Pages/Home/Navbar";
 import Home from "./Pages/Home/Homescreen";
+import PrivacyPolicy from "./Pages/Home/privacy/Privacy";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />}></Route>
+            <Route path="/privacy" element={<PrivacyPolicy />}></Route>
             <Route path="*" element={<div>404 Not Found</div>}></Route>
           </Routes>
         </div>

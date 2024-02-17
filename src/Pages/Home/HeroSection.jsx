@@ -1,3 +1,5 @@
+import { Link } from "react-scroll";
+
 export default function HeroSection() {
   return (
     <section id="heroSection" className="hero--section">
@@ -7,8 +9,8 @@ export default function HeroSection() {
           <h1 className="hero--section--title">
             <span className="hero--section-title--color">Full Stack</span>{" "}
             <br />
-            <p class="typing-text">
-              Developer<span class="cursor"></span>
+            <p className="typing-text">
+              Developer<span className="cursor"></span>
             </p>
           </h1>
           <p className="hero--section-description">
@@ -17,14 +19,17 @@ export default function HeroSection() {
             inspire.
           </p>
         </div>
-        <button className="btn btn-primary">Get In Touch</button>
+        <Link to="Contact" spy={true} duration={500} smooth={true}>
+          <button style={{ marginTop: "20px" }} className="btn btn-primary">
+            Get In Touch
+          </button>
+        </Link>
       </div>
       <div className="hero--section--img ">
-        
         <img
           src="./img/profile-pic.png"
           alt="Hero Section"
-          class="profile-photo"
+          className="profile-photo"
         />
       </div>
     </section>
